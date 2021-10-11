@@ -1,3 +1,37 @@
+$color1: beige;
+$white: white;
+$black: #0c0b0b;
+$silver: silver;
+$register: yellowgreen;
+
 .navbarRegister{
-    background-color: yellowgreen;
+    background-color: $register;
+}
+.navbar{
+    background-color: $color1;
+}
+.navbarTop{
+    background-color: $color1;
+}
+.navbarTitle{
+    background-color: $black;
+}
+.ham span{
+    background-color: $black;
+}
+.menu-area > ul {
+    background: $color1;
+	color: $white;
+}
+.menu-area > ul > li{
+    color: $white;
+}
+.submenuTitle{
+    color: $black;
+}
+.dropdown li{
+	background: $white;
+}
+.dropdown li:hover{
+    background-color: $silver;
 }

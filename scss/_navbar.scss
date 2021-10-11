@@ -3,14 +3,12 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: beige;
 }
 .navbarTop{
 	display: flex;
     flex-direction: row;
     width: 100%;
     height: 100%;
-	background-color: beige;
 }
 .navbarHam{
     width: 10%;
@@ -48,7 +46,6 @@
 .navbarTitle{
 	font-size: 18px;
 	margin: 0;
-	color: black;
 }
 .navbarLogo{
     font-size: 30px;
@@ -74,7 +71,6 @@
 
 .ham span {
 	display: block;
-	background-color: black;
 	height: 5px;
 	width: 27px;
 	margin: 4px auto;
@@ -110,22 +106,6 @@
 .br-3.animado {
 	transform: rotate(45deg) translate(-10px, -8px);
 }
-// SUBMENU
-// .dropdown{
-// 	top: 100%;
-// 	left: 0;
-// 	width: 100%;
-// 	padding: 0;
-// }
-// .dropdown li{
-// 	display: none;
-// }
-// .dropdown li:hover{
-// 	background-color: blue;
-// }
-// .submenu:hover > .dropdown li{
-// 	display:block;
-// }
 .menu-area ul{
 	list-style: none;
 }
@@ -140,14 +120,11 @@
 	padding: 0;
 	margin: 0;
 	display: flex;
-	background: beige;
-	color: white;
 	width: 100%;
 }
 .menu-area > ul > li{
 	position: relative;
 	cursor: pointer;
-	color: white;
 	font-size: 14px;
 	letter-spacing: 1px;
 	float: left;
@@ -165,10 +142,6 @@
 }
 .submenuTitle{
 	margin:0;
-	color: black;
-}
-submenuTitle:hover{
-	color: white;
 }
 .dropdown{
 	position: absolute;
@@ -178,12 +151,8 @@ submenuTitle:hover{
 	padding: 0;
 }
 .dropdown li{
-	background: white;
 	border: 1px solid black;
 	display: none;
-}
-.dropdown li:hover {
-	background-color: silver;
 }
 .menu-area li:hover > .dropdown li{
 	display: block;
