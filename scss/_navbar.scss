@@ -1,8 +1,36 @@
 .navbar{
     display: flex;
     flex-direction: column;
-    width: 100%;
+	align-items: center;
+}
+.navbarW{
+	width: 95%;
+	height: 110px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbarIn{
+	width: 10%;
     height: 100%;
+	align-items: center;
+}
+.navbarStart{
+	display: flex;
+	justify-content: flex-start;
+}
+.navbarCenter{
+	display: flex;
+	justify-content: center;
+}
+.navbarEnd{
+	display: flex;
+	justify-content: flex-end;
+}
+.downBar{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
 }
 .navbarTop{
 	display: flex;
@@ -35,8 +63,8 @@
 }
 .navbarRegister{
 	border-radius: 15px;
-	width: 100px;
-	height: 45px;
+	width: 199px;
+	height: 50px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,12 +72,20 @@
 	margin: 0px 5px;
 }
 .navbarTitle{
-	font-size: 18px;
+	font-size: 20px;
 	margin: 0;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 400;
+}
+.navbarRegisterT{
+	font-size: 20px;
+	margin: 0;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 700;
 }
 .navbarLogo{
-    font-size: 30px;
-	margin: 0;
+    width: 211px;
+	height: 66px;
 }
 .border{  
     margin: 0;
@@ -87,9 +123,9 @@
 	}
 }
 /* ANIMACIONES HEADER MENU HAMBURGUESA */
-.navbarHamLinks{
-    display: none;
-}
+// .navbarHamLinks{
+//     display: none;
+// }
 .navbarHamLinks.activado {
 	display: flex;
 	animation: muestraMenu 350ms ease-in-out both;
@@ -117,7 +153,6 @@
 }
 .menu-area > ul {
 	list-style: none;
-	padding: 0;
 	margin: 0;
 	display: flex;
 	width: 100%;
@@ -126,16 +161,11 @@
 	position: relative;
 	cursor: pointer;
 	font-size: 14px;
-	letter-spacing: 1px;
-	float: left;
-	width: 25%;
-	height: 40px;
-	line-height: 35px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border:  1px solid black;
 	text-decoration: none;
+	margin: 0px 40px;
 }
 .menu-area > ul > li > a, .dropdown li a {
     text-decoration: none;
@@ -147,7 +177,7 @@
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 100%;
+	width: 100.6%;
 	padding: 0;
 }
 .dropdown li{
@@ -156,4 +186,8 @@
 }
 .menu-area li:hover > .dropdown li{
 	display: block;
+}
+.fa-size{
+	font-size: 20px;
+	color: black;
 }

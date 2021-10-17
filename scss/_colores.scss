@@ -1,36 +1,43 @@
-$color1: beige;
-$white: white;
+$color1: green;
+$titleNavbar : #fff;
+$titleRegister: #015249;
 $black: #0c0b0b;
 $silver: silver;
-$register: yellowgreen;
+$register: #57BC90;
 
-.navbarRegister{
-    background-color: $register;
-}
-.navbar{
+
+.navbarW{
     background-color: $color1;
+}
+.fa-size{
+    color: $titleNavbar;
 }
 .navbarTop{
     background-color: $color1;
 }
 .navbarTitle{
-    background-color: $black;
+    color: $titleNavbar;
+}
+.navbarRegister{
+    background-color: $register;
+}
+.navbarRegisterT{
+    color: $titleRegister;
 }
 .ham span{
     background-color: $black;
 }
 .menu-area > ul {
-    background: $color1;
-	color: $white;
+	color: $titleNavbar;
 }
 .menu-area > ul > li{
-    color: $white;
+    color: $titleNavbar;
 }
 .submenuTitle{
     color: $black;
 }
 .dropdown li{
-	background: $white;
+	background: $titleNavbar;
 }
 .dropdown li:hover{
     background-color: $silver;

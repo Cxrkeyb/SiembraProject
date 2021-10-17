@@ -4,16 +4,42 @@ body {
 .navbar {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  align-items: center; }
+
+.navbarW {
+  width: 95%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+
+.navbarIn {
+  width: 10%;
   height: 100%;
-  background-color: beige; }
+  align-items: center; }
+
+.navbarStart {
+  display: flex;
+  justify-content: flex-start; }
+
+.navbarCenter {
+  display: flex;
+  justify-content: center; }
+
+.navbarEnd {
+  display: flex;
+  justify-content: flex-end; }
+
+.downBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
 
 .navbarTop {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 100%;
-  background-color: beige; }
+  height: 100%; }
 
 .navbarHam {
   width: 10%;
@@ -40,8 +66,8 @@ body {
 
 .navbarRegister {
   border-radius: 15px;
-  width: 100px;
-  height: 45px;
+  width: 199px;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -49,13 +75,20 @@ body {
   margin: 0px 5px; }
 
 .navbarTitle {
-  font-size: 18px;
+  font-size: 20px;
   margin: 0;
-  color: black; }
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400; }
+
+.navbarRegisterT {
+  font-size: 20px;
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700; }
 
 .navbarLogo {
-  font-size: 30px;
-  margin: 0; }
+  width: 211px;
+  height: 66px; }
 
 .border {
   margin: 0; }
@@ -75,7 +108,6 @@ body {
 
 .ham span {
   display: block;
-  background-color: black;
   height: 5px;
   width: 27px;
   margin: 4px auto;
@@ -88,9 +120,6 @@ body {
     opacity: 1; } }
 
 /* ANIMACIONES HEADER MENU HAMBURGUESA */
-.navbarHamLinks {
-  display: none; }
-
 .navbarHamLinks.activado {
   display: flex;
   animation: muestraMenu 350ms ease-in-out both; }
@@ -115,56 +144,76 @@ body {
 
 .menu-area > ul {
   list-style: none;
-  padding: 0;
   margin: 0;
   display: flex;
-  background: beige;
-  color: white;
   width: 100%; }
 
 .menu-area > ul > li {
   position: relative;
   cursor: pointer;
-  color: white;
   font-size: 14px;
-  letter-spacing: 1px;
-  float: left;
-  width: 25%;
-  height: 40px;
-  line-height: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid black;
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 0px 40px; }
 
 .menu-area > ul > li > a, .dropdown li a {
   text-decoration: none; }
 
 .submenuTitle {
-  margin: 0;
-  color: black; }
-
-submenuTitle:hover {
-  color: white; }
+  margin: 0; }
 
 .dropdown {
   position: absolute;
   top: 100%;
   left: 0;
-  width: 100%;
+  width: 100.6%;
   padding: 0; }
 
 .dropdown li {
-  background: white;
   border: 1px solid black;
   display: none; }
-
-.dropdown li:hover {
-  background-color: silver; }
 
 .menu-area li:hover > .dropdown li {
   display: block; }
 
+.fa-size {
+  font-size: 20px;
+  color: black; }
+
+.navbarW {
+  background-color: green; }
+
+.fa-size {
+  color: #fff; }
+
+.navbarTop {
+  background-color: green; }
+
+.navbarTitle {
+  color: #fff; }
+
 .navbarRegister {
-  background-color: yellowgreen; }
+  background-color: #57BC90; }
+
+.navbarRegisterT {
+  color: #015249; }
+
+.ham span {
+  background-color: #0c0b0b; }
+
+.menu-area > ul {
+  color: #fff; }
+
+.menu-area > ul > li {
+  color: #fff; }
+
+.submenuTitle {
+  color: #0c0b0b; }
+
+.dropdown li {
+  background: #fff; }
+
+.dropdown li:hover {
+  background-color: silver; }
