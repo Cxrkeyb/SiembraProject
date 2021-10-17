@@ -221,11 +221,11 @@ body {
 
 .videoContainer {
   width: 100%;
-  height: 920px; }
+  height: 1080px; }
 
 .videoIndex {
   width: 100%;
-  height: 920px;
+  height: 1080px;
   position: absolute;
   z-index: 0; }
 
@@ -238,6 +238,6 @@ body {
   position: absolute;
   width: 95%;
   display: flex;
-  height: 900px;
+  height: 1080px;
   justify-content: flex-end;
   align-items: center; }
